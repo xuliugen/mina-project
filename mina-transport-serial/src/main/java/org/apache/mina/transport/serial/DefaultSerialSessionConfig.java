@@ -24,7 +24,6 @@ import org.apache.mina.core.session.IoSessionConfig;
 
 /**
  * The default configuration for a serial session {@link SerialSessionConfig}.
- *
  * @author <a href="http://mina.apache.org">Apache MINA Project</a>
  */
 class DefaultSerialSessionConfig extends AbstractIoSessionConfig implements SerialSessionConfig {

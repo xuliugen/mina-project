@@ -23,14 +23,14 @@ import java.io.IOException;
 
 /**
  * A unchecked version of {@link IOException}.
- * <p>
+ * <p/>
  * Please note that {@link RuntimeIoException} is different from
  * {@link IOException} in that doesn't trigger force session close,
  * while {@link IOException} forces disconnection.
- *
  * @author <a href="http://mina.apache.org">Apache MINA Project</a>
  */
 public class RuntimeIoException extends RuntimeException {
+
     private static final long serialVersionUID = 9029092241311939548L;
 
     public RuntimeIoException() {
